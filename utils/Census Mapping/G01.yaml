@@ -1,0 +1,109 @@
+POA_CODE_2021: Postal Area Code 2021
+Tot_P_M: Total Population Male
+Tot_P_F: Total Population Female
+Tot_P_P: Total Population Persons
+Age_0_4_yr_M: Ages 0-4 years Male
+Age_0_4_yr_F: Ages 0-4 years Female
+Age_0_4_yr_P: Ages 0-4 years Persons
+Age_5_14_yr_M: Ages 5-14 years Male
+Age_5_14_yr_F: Ages 5-14 years Female
+Age_5_14_yr_P: Ages 5-14 years Persons
+Age_15_19_yr_M: Ages 15-19 years Male
+Age_15_19_yr_F: Ages 15-19 years Female
+Age_15_19_yr_P: Ages 15-19 years Persons
+Age_20_24_yr_M: Ages 20-24 years Male
+Age_20_24_yr_F: Ages 20-24 years Female
+Age_20_24_yr_P: Ages 20-24 years Persons
+Age_25_34_yr_M: Ages 25-34 years Male
+Age_25_34_yr_F: Ages 25-34 years Female
+Age_25_34_yr_P: Ages 25-34 years Persons
+Age_35_44_yr_M: Ages 35-44 years Male
+Age_35_44_yr_F: Ages 35-44 years Female
+Age_35_44_yr_P: Ages 35-44 years Persons
+Age_45_54_yr_M: Ages 45-54 years Male
+Age_45_54_yr_F: Ages 45-54 years Female
+Age_45_54_yr_P: Ages 45-54 years Persons
+Age_55_64_yr_M: Ages 55-64 years Male
+Age_55_64_yr_F: Ages 55-64 years Female
+Age_55_64_yr_P: Ages 55-64 years Persons
+Age_65_74_yr_M: Ages 65-74 years Male
+Age_65_74_yr_F: Ages 65-74 years Female
+Age_65_74_yr_P: Ages 65-74 years Persons
+Age_75_84_yr_M: Ages 75-84 years Male
+Age_75_84_yr_F: Ages 75-84 years Female
+Age_75_84_yr_P: Ages 75-84 years Persons
+Age_85ov_M: Ages 85 and over Male
+Age_85ov_F: Ages 85 and over Female
+Age_85ov_P: Ages 85 and over Persons
+Counted_Census_Night_home_M: Counted at Home on Census Night Male
+Counted_Census_Night_home_F: Counted at Home on Census Night Female
+Counted_Census_Night_home_P: Counted at Home on Census Night Persons
+Count_Census_Nt_Ewhere_Aust_M: Counted Elsewhere in Australia on Census Night Male
+Count_Census_Nt_Ewhere_Aust_F: Counted Elsewhere in Australia on Census Night Female
+Count_Census_Nt_Ewhere_Aust_P: Counted Elsewhere in Australia on Census Night Persons
+Indigenous_psns_Aboriginal_M: Indigenous Persons Aboriginal Male
+Indigenous_psns_Aboriginal_F: Indigenous Persons Aboriginal Female
+Indigenous_psns_Aboriginal_P: Indigenous Persons Aboriginal Persons
+Indig_psns_Torres_Strait_Is_M: Indigenous Persons Torres Strait Islander Male
+Indig_psns_Torres_Strait_Is_F: Indigenous Persons Torres Strait Islander Female
+Indig_psns_Torres_Strait_Is_P: Indigenous Persons Torres Strait Islander Persons
+Indig_Bth_Abor_Torres_St_Is_M: Indigenous Both Aboriginal and Torres Strait Islander Male
+Indig_Bth_Abor_Torres_St_Is_F: Indigenous Both Aboriginal and Torres Strait Islander Female
+Indig_Bth_Abor_Torres_St_Is_P: Indigenous Both Aboriginal and Torres Strait Islander Persons
+Indigenous_P_Tot_M: Indigenous Population Total Male
+Indigenous_P_Tot_F: Indigenous Population Total Female
+Indigenous_P_Tot_P: Indigenous Population Total Persons
+Birthplace_Australia_M: Birthplace Australia Male
+Birthplace_Australia_F: Birthplace Australia Female
+Birthplace_Australia_P: Birthplace Australia Persons
+Birthplace_Elsewhere_M: Birthplace Elsewhere Male
+Birthplace_Elsewhere_F: Birthplace Elsewhere Female
+Birthplace_Elsewhere_P: Birthplace Elsewhere Persons
+Lang_used_home_Eng_only_M: Language Used at Home English Only Male
+Lang_used_home_Eng_only_F: Language Used at Home English Only Female
+Lang_used_home_Eng_only_P: Language Used at Home English Only Persons
+Lang_used_home_Oth_Lang_M: Language Used at Home Other Language Male
+Lang_used_home_Oth_Lang_F: Language Used at Home Other Language Female
+Lang_used_home_Oth_Lang_P: Language Used at Home Other Language Persons
+Australian_citizen_M: Australian Citizen Male
+Australian_citizen_F: Australian Citizen Female
+Australian_citizen_P: Australian Citizen Persons
+Age_psns_att_educ_inst_0_4_M: Persons Attending Educational Institution Ages 0-4 Male
+Age_psns_att_educ_inst_0_4_F: Persons Attending Educational Institution Ages 0-4 Female
+Age_psns_att_educ_inst_0_4_P: Persons Attending Educational Institution Ages 0-4 Persons
+Age_psns_att_educ_inst_5_14_M: Persons Attending Educational Institution Ages 5-14 Male
+Age_psns_att_educ_inst_5_14_F: Persons Attending Educational Institution Ages 5-14 Female
+Age_psns_att_educ_inst_5_14_P: Persons Attending Educational Institution Ages 5-14 Persons
+Age_psns_att_edu_inst_15_19_M: Persons Attending Educational Institution Ages 15-19 Male
+Age_psns_att_edu_inst_15_19_F: Persons Attending Educational Institution Ages 15-19 Female
+Age_psns_att_edu_inst_15_19_P: Persons Attending Educational Institution Ages 15-19 Persons
+Age_psns_att_edu_inst_20_24_M: Persons Attending Educational Institution Ages 20-24 Male
+Age_psns_att_edu_inst_20_24_F: Persons Attending Educational Institution Ages 20-24 Female
+Age_psns_att_edu_inst_20_24_P: Persons Attending Educational Institution Ages 20-24 Persons
+Age_psns_att_edu_inst_25_ov_M: Persons Attending Educational Institution Ages 25 and Over Male
+Age_psns_att_edu_inst_25_ov_F: Persons Attending Educational Institution Ages 25 and Over Female
+Age_psns_att_edu_inst_25_ov_P: Persons Attending Educational Institution Ages 25 and Over Persons
+High_yr_schl_comp_Yr_12_eq_M: High School Completion Year 12 Equivalent Male
+High_yr_schl_comp_Yr_12_eq_F: High School Completion Year 12 Equivalent Female
+High_yr_schl_comp_Yr_12_eq_P: High School Completion Year 12 Equivalent Persons
+High_yr_schl_comp_Yr_11_eq_M: High School Completion Year 11 Equivalent Male
+High_yr_schl_comp_Yr_11_eq_F: High School Completion Year 11 Equivalent Female
+High_yr_schl_comp_Yr_11_eq_P: High School Completion Year 11 Equivalent Persons
+High_yr_schl_comp_Yr_10_eq_M: High School Completion Year 10 Equivalent Male
+High_yr_schl_comp_Yr_10_eq_F: High School Completion Year 10 Equivalent Female
+High_yr_schl_comp_Yr_10_eq_P: High School Completion Year 10 Equivalent Persons
+High_yr_schl_comp_Yr_9_eq_M: High School Completion Year 9 Equivalent Male
+High_yr_schl_comp_Yr_9_eq_F: High School Completion Year 9 Equivalent Female
+High_yr_schl_comp_Yr_9_eq_P: High School Completion Year 9 Equivalent Persons
+High_yr_schl_comp_Yr_8_belw_M: High School Completion Year 8 or Below Male
+High_yr_schl_comp_Yr_8_belw_F: High School Completion Year 8 or Below Female
+High_yr_schl_comp_Yr_8_belw_P: High School Completion Year 8 or Below Persons
+High_yr_schl_comp_D_n_g_sch_M: High School Completion Did Not Go To School Male
+High_yr_schl_comp_D_n_g_sch_F: High School Completion Did Not Go To School Female
+High_yr_schl_comp_D_n_g_sch_P: High School Completion Did Not Go To School Persons
+Count_psns_occ_priv_dwgs_M: Count of Persons in Occupied Private Dwellings Male
+Count_psns_occ_priv_dwgs_F: Count of Persons in Occupied Private Dwellings Female
+Count_psns_occ_priv_dwgs_P: Count of Persons in Occupied Private Dwellings Persons
+Count_Persons_other_dwgs_M: Count of Persons in Other Dwellings Male
+Count_Persons_other_dwgs_F: Count of Persons in Other Dwellings Female
+Count_Persons_other_dwgs_P: Count of Persons in Other Dwellings Persons
