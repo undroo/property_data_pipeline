@@ -1,0 +1,265 @@
+POA_CODE_2021: Postal Area Code 2021
+
+# Australian Ancestry
+Aust_BP_B_OS: Australian Ancestry - Both Parents Born Overseas
+Aust_FO_B_OS: Australian Ancestry - Father Only Born Overseas
+Aust_MO_B_OS: Australian Ancestry - Mother Only Born Overseas
+Aust_Both_parents_born_Aust: Australian Ancestry - Both Parents Born in Australia
+Aust_Birthplace_not_stated: Australian Ancestry - Parents' Birthplace Not Stated
+Aust_Tot_resp: Australian Ancestry - Total Responses
+
+# Indigenous Australian Ancestry
+Aust_Abor_BP_B_OS: Aboriginal Australian - Both Parents Born Overseas
+Aust_Abor_FO_B_OS: Aboriginal Australian - Father Only Born Overseas
+Aust_Abor_MO_B_OS: Aboriginal Australian - Mother Only Born Overseas
+Aust_Abor_BP_B_Aus: Aboriginal Australian - Both Parents Born in Australia
+Aust_Abor_BP_NS: Aboriginal Australian - Parents' Birthplace Not Stated
+Aust_Abor_Tot_resp: Aboriginal Australian - Total Responses
+
+# Chinese Ancestry
+Chinese_BP_B_OS: Chinese Ancestry - Both Parents Born Overseas
+Chinese_FO_B_OS: Chinese Ancestry - Father Only Born Overseas
+Chinese_MO_B_OS: Chinese Ancestry - Mother Only Born Overseas
+Chinese_BP_B_Aus: Chinese Ancestry - Both Parents Born in Australia
+Chinese_BP_NS: Chinese Ancestry - Parents' Birthplace Not Stated
+Chinese_Tot_resp: Chinese Ancestry - Total Responses
+
+# Croatian Ancestry
+Croatian_BP_B_OS: Croatian Ancestry - Both Parents Born Overseas
+Croatian_FO_B_OS: Croatian Ancestry - Father Only Born Overseas
+Croatian_MO_B_OS: Croatian Ancestry - Mother Only Born Overseas
+Croatian_BP_B_Aus: Croatian Ancestry - Both Parents Born in Australia
+Croatian_BP_NS: Croatian Ancestry - Parents' Birthplace Not Stated
+Croatian_Tot_resp: Croatian Ancestry - Total Responses
+
+# Dutch Ancestry
+Dutch_BP_B_OS: Dutch Ancestry - Both Parents Born Overseas
+Dutch_FO_B_OS: Dutch Ancestry - Father Only Born Overseas
+Dutch_MO_B_OS: Dutch Ancestry - Mother Only Born Overseas
+Dutch_BP_B_Aus: Dutch Ancestry - Both Parents Born in Australia
+Dutch_BP_NS: Dutch Ancestry - Parents' Birthplace Not Stated
+Dutch_Tot_resp: Dutch Ancestry - Total Responses
+
+# English Ancestry
+English_BP_B_OS: English Ancestry - Both Parents Born Overseas
+English_FO_B_OS: English Ancestry - Father Only Born Overseas
+English_MO_B_OS: English Ancestry - Mother Only Born Overseas
+English_BP_B_Aus: English Ancestry - Both Parents Born in Australia
+English_BP_NS: English Ancestry - Parents' Birthplace Not Stated
+English_Tot_resp: English Ancestry - Total Responses
+
+# Filipino Ancestry
+Filipino_BP_B_OS: Filipino Ancestry - Both Parents Born Overseas
+Filipino_FO_B_OS: Filipino Ancestry - Father Only Born Overseas
+Filipino_MO_B_OS: Filipino Ancestry - Mother Only Born Overseas
+Filipino_BP_B_Aus: Filipino Ancestry - Both Parents Born in Australia
+Filipino_BP_NS: Filipino Ancestry - Parents' Birthplace Not Stated
+Filipino_Tot_resp: Filipino Ancestry - Total Responses
+
+# French Ancestry
+French_BP_B_OS: French Ancestry - Both Parents Born Overseas
+French_FO_B_OS: French Ancestry - Father Only Born Overseas
+French_MO_B_OS: French Ancestry - Mother Only Born Overseas
+French_BP_B_Aus: French Ancestry - Both Parents Born in Australia
+French_BP_NS: French Ancestry - Parents' Birthplace Not Stated
+French_Tot_resp: French Ancestry - Total Responses
+
+# German Ancestry
+German_BP_B_OS: German Ancestry - Both Parents Born Overseas
+German_FO_B_OS: German Ancestry - Father Only Born Overseas
+German_MO_B_OS: German Ancestry - Mother Only Born Overseas
+German_BP_B_Aus: German Ancestry - Both Parents Born in Australia
+German_BP_NS: German Ancestry - Parents' Birthplace Not Stated
+German_Tot_resp: German Ancestry - Total Responses
+
+# Greek Ancestry
+Greek_BP_B_OS: Greek Ancestry - Both Parents Born Overseas
+Greek_FO_B_OS: Greek Ancestry - Father Only Born Overseas
+Greek_MO_B_OS: Greek Ancestry - Mother Only Born Overseas
+Greek_BP_B_Aus: Greek Ancestry - Both Parents Born in Australia
+Greek_BP_NS: Greek Ancestry - Parents' Birthplace Not Stated
+Greek_Tot_resp: Greek Ancestry - Total Responses
+
+# Hungarian Ancestry
+Hungarian_BP_B_OS: Hungarian Ancestry - Both Parents Born Overseas
+Hungarian_FO_B_OS: Hungarian Ancestry - Father Only Born Overseas
+Hungarian_MO_B_OS: Hungarian Ancestry - Mother Only Born Overseas
+Hungarian_BP_B_Aus: Hungarian Ancestry - Both Parents Born in Australia
+Hungarian_BP_NS: Hungarian Ancestry - Parents' Birthplace Not Stated
+Hungarian_Tot_resp: Hungarian Ancestry - Total Responses
+
+# Indian Ancestry
+Indian_BP_B_OS: Indian Ancestry - Both Parents Born Overseas
+Indian_FO_B_OS: Indian Ancestry - Father Only Born Overseas
+Indian_MO_B_OS: Indian Ancestry - Mother Only Born Overseas
+Indian_BP_B_Aus: Indian Ancestry - Both Parents Born in Australia
+Indian_BP_NS: Indian Ancestry - Parents' Birthplace Not Stated
+Indian_Tot_resp: Indian Ancestry - Total Responses
+
+# Irish Ancestry
+Irish_BP_B_OS: Irish Ancestry - Both Parents Born Overseas
+Irish_FO_B_OS: Irish Ancestry - Father Only Born Overseas
+Irish_MO_B_OS: Irish Ancestry - Mother Only Born Overseas
+Irish_BP_B_Aus: Irish Ancestry - Both Parents Born in Australia
+Irish_BP_NS: Irish Ancestry - Parents' Birthplace Not Stated
+Irish_Tot_resp: Irish Ancestry - Total Responses
+
+# Italian Ancestry
+Italian_BP_B_OS: Italian Ancestry - Both Parents Born Overseas
+Italian_FO_B_OS: Italian Ancestry - Father Only Born Overseas
+Italian_MO_B_OS: Italian Ancestry - Mother Only Born Overseas
+Italian_BP_B_Aus: Italian Ancestry - Both Parents Born in Australia
+Italian_BP_NS: Italian Ancestry - Parents' Birthplace Not Stated
+Italian_Tot_resp: Italian Ancestry - Total Responses
+
+# Korean Ancestry
+Korean_BP_B_OS: Korean Ancestry - Both Parents Born Overseas
+Korean_FO_B_OS: Korean Ancestry - Father Only Born Overseas
+Korean_MO_B_OS: Korean Ancestry - Mother Only Born Overseas
+Korean_BP_B_Aus: Korean Ancestry - Both Parents Born in Australia
+Korean_BP_NS: Korean Ancestry - Parents' Birthplace Not Stated
+Korean_Tot_resp: Korean Ancestry - Total Responses
+
+# Lebanese Ancestry
+Lebanese_BP_B_OS: Lebanese Ancestry - Both Parents Born Overseas
+Lebanese_FO_B_OS: Lebanese Ancestry - Father Only Born Overseas
+Lebanese_MO_B_OS: Lebanese Ancestry - Mother Only Born Overseas
+Lebanese_BP_B_Aus: Lebanese Ancestry - Both Parents Born in Australia
+Lebanese_BP_NS: Lebanese Ancestry - Parents' Birthplace Not Stated
+Lebanese_Tot_resp: Lebanese Ancestry - Total Responses
+
+# Macedonian Ancestry (currently an issue with the column naming)
+Macedonian_BP_B_OS: Macedonian Ancestry - Both Parents Born Overseas
+Macdonian_FO_B_OS: Macedonian Ancestry - Father Only Born Overseas
+Macdonian_MO_B_OS: Macedonian Ancestry - Mother Only Born Overseas
+Macdonian_BP_B_Aus: Macedonian Ancestry - Both Parents Born in Australia
+Macdonian_BP_NS: Macedonian Ancestry - Parents' Birthplace Not Stated
+Macedonian_Tot_resp: Macedonian Ancestry - Total Responses
+
+# Maltese Ancestry
+Maltese_BP_B_OS: Maltese Ancestry - Both Parents Born Overseas
+Maltese_FO_B_OS: Maltese Ancestry - Father Only Born Overseas
+Maltese_MO_B_OS: Maltese Ancestry - Mother Only Born Overseas
+Maltese_BP_B_Aus: Maltese Ancestry - Both Parents Born in Australia
+Maltese_BP_NS: Maltese Ancestry - Parents' Birthplace Not Stated
+Maltese_Tot_resp: Maltese Ancestry - Total Responses
+
+# Maori Ancestry
+Maori_BP_B_OS: Maori Ancestry - Both Parents Born Overseas
+Maori_FO_B_OS: Maori Ancestry - Father Only Born Overseas
+Maori_MO_B_OS: Maori Ancestry - Mother Only Born Overseas
+Maori_BP_B_Aus: Maori Ancestry - Both Parents Born in Australia
+Maori_BP_NS: Maori Ancestry - Parents' Birthplace Not Stated
+Maori_Tot_resp: Maori Ancestry - Total Responses
+
+# New Zealand Ancestry
+NZ_BP_B_OS: New Zealand Ancestry - Both Parents Born Overseas
+NZ_FO_B_OS: New Zealand Ancestry - Father Only Born Overseas
+NZ_MO_B_OS: New Zealand Ancestry - Mother Only Born Overseas
+NZ_BP_B_Aus: New Zealand Ancestry - Both Parents Born in Australia
+NZ_BP_NS: New Zealand Ancestry - Parents' Birthplace Not Stated
+NZ_Tot_resp: New Zealand Ancestry - Total Responses
+
+# Polish Ancestry
+Polish_BP_B_OS: Polish Ancestry - Both Parents Born Overseas
+Polish_FO_B_OS: Polish Ancestry - Father Only Born Overseas
+Polish_MO_B_OS: Polish Ancestry - Mother Only Born Overseas
+Polish_BP_B_Aus: Polish Ancestry - Both Parents Born in Australia
+Polish_BP_NS: Polish Ancestry - Parents' Birthplace Not Stated
+Polish_Tot_resp: Polish Ancestry - Total Responses
+
+# Russian Ancestry
+Russian_BP_B_OS: Russian Ancestry - Both Parents Born Overseas
+Russian_FO_B_OS: Russian Ancestry - Father Only Born Overseas
+Russian_MO_B_OS: Russian Ancestry - Mother Only Born Overseas
+Russian_BP_B_Aus: Russian Ancestry - Both Parents Born in Australia
+Russian_BP_NS: Russian Ancestry - Parents' Birthplace Not Stated
+Russian_Tot_resp: Russian Ancestry - Total Responses
+
+# Samoan Ancestry
+Samoan_BP_B_OS: Samoan Ancestry - Both Parents Born Overseas
+Samoan_FO_B_OS: Samoan Ancestry - Father Only Born Overseas
+Samoan_MO_B_OS: Samoan Ancestry - Mother Only Born Overseas
+Samoan_BP_B_Aus: Samoan Ancestry - Both Parents Born in Australia
+Samoan_BP_NS: Samoan Ancestry - Parents' Birthplace Not Stated
+Samoan_Tot_resp: Samoan Ancestry - Total Responses
+
+# Scottish Ancestry
+Scottish_BP_B_OS: Scottish Ancestry - Both Parents Born Overseas
+Scottish_FO_B_OS: Scottish Ancestry - Father Only Born Overseas
+Scottish_MO_B_OS: Scottish Ancestry - Mother Only Born Overseas
+Scottish_BP_B_Aus: Scottish Ancestry - Both Parents Born in Australia
+Scottish_BP_NS: Scottish Ancestry - Parents' Birthplace Not Stated
+Scottish_Tot_resp: Scottish Ancestry - Total Responses
+
+# Serbian Ancestry
+Serbian_BP_B_OS: Serbian Ancestry - Both Parents Born Overseas
+Serbian_FO_B_OS: Serbian Ancestry - Father Only Born Overseas
+Serbian_MO_B_OS: Serbian Ancestry - Mother Only Born Overseas
+Serbian_BP_B_Aus: Serbian Ancestry - Both Parents Born in Australia
+Serbian_BP_NS: Serbian Ancestry - Parents' Birthplace Not Stated
+Serbian_Tot_resp: Serbian Ancestry - Total Responses
+
+# South African Ancestry
+Sth_African_BP_B_OS: South African Ancestry - Both Parents Born Overseas
+Sth_African_FO_B_OS: South African Ancestry - Father Only Born Overseas
+Sth_African_MO_B_OS: South African Ancestry - Mother Only Born Overseas
+Sth_Afrcan_BP_B_Aus: South African Ancestry - Both Parents Born in Australia
+Sth_African_BP_NS: South African Ancestry - Parents' Birthplace Not Stated
+Sth_African_Tot_resp: South African Ancestry - Total Responses
+
+# Spanish Ancestry
+Spanish_BP_B_OS: Spanish Ancestry - Both Parents Born Overseas
+Spanish_FO_B_OS: Spanish Ancestry - Father Only Born Overseas
+Spanish_MO_B_OS: Spanish Ancestry - Mother Only Born Overseas
+Spanish_BP_B_Aus: Spanish Ancestry - Both Parents Born in Australia
+Spanish_BP_NS: Spanish Ancestry - Parents' Birthplace Not Stated
+Spanish_Tot_resp: Spanish Ancestry - Total Responses
+
+# Sri Lankan Ancestry
+Sri_Lankan_BP_B_OS: Sri Lankan Ancestry - Both Parents Born Overseas
+Sri_Lankan_FO_B_OS: Sri Lankan Ancestry - Father Only Born Overseas
+Sri_Lankan_MO_B_OS: Sri Lankan Ancestry - Mother Only Born Overseas
+Sri_Lankan_BP_B_Aus: Sri Lankan Ancestry - Both Parents Born in Australia
+Sri_Lankan_BP_NS: Sri Lankan Ancestry - Parents' Birthplace Not Stated
+Sri_Lankan_Tot_resp: Sri Lankan Ancestry - Total Responses
+
+# Vietnamese Ancestry
+Vietnamese_BP_B_OS: Vietnamese Ancestry - Both Parents Born Overseas
+Vietnamese_FO_B_OS: Vietnamese Ancestry - Father Only Born Overseas
+Vietnamese_MO_B_OS: Vietnamese Ancestry - Mother Only Born Overseas
+Vietnamese_BP_B_Aus: Vietnamese Ancestry - Both Parents Born in Australia
+Vietnamese_BP_NS: Vietnamese Ancestry - Parents' Birthplace Not Stated
+Vietnamese_Tot_resp: Vietnamese Ancestry - Total Responses
+
+# Welsh Ancestry
+Welsh_BP_B_OS: Welsh Ancestry - Both Parents Born Overseas
+Welsh_FO_B_OS: Welsh Ancestry - Father Only Born Overseas
+Welsh_MO_B_OS: Welsh Ancestry - Mother Only Born Overseas
+Welsh_BP_B_Aus: Welsh Ancestry - Both Parents Born in Australia
+Welsh_BP_NS: Welsh Ancestry - Parents' Birthplace Not Stated
+Welsh_Tot_resp: Welsh Ancestry - Total Responses
+
+# Other Ancestry
+Other_BP_B_OS: Other Ancestry - Both Parents Born Overseas
+Other_FO_B_OS: Other Ancestry - Father Only Born Overseas
+Other_MO_B_OS: Other Ancestry - Mother Only Born Overseas
+Other_BP_B_Aus: Other Ancestry - Both Parents Born in Australia
+Other_BP_NS: Other Ancestry - Parents' Birthplace Not Stated
+Other_Tot_resp: Other Ancestry - Total Responses
+
+# Ancestry Not Stated
+Ancestry_NS_BP_B_OS: Ancestry Not Stated - Both Parents Born Overseas
+Ancestry_NS_FO_B_OS: Ancestry Not Stated - Father Only Born Overseas
+Ancestry_NS_MO_B_OS: Ancestry Not Stated - Mother Only Born Overseas
+Ancestry_NS_BP_B_Aus: Ancestry Not Stated - Both Parents Born in Australia
+Ancestry_NS_BP_NS: Ancestry Not Stated - Parents' Birthplace Not Stated
+Ancestry_NS_Tot_resp: Ancestry Not Stated - Total Responses
+
+# Total Population
+Tot_P_BP_B_OS: Total Population - Both Parents Born Overseas
+Tot_P_FO_B_OS: Total Population - Father Only Born Overseas
+Tot_P_MO_B_OS: Total Population - Mother Only Born Overseas
+Tot_P_BP_B_Aus: Total Population - Both Parents Born in Australia
+Tot_P_BP_NS: Total Population - Parents' Birthplace Not Stated
+Tot_P_Tot_resp: Total Population - Total Responses

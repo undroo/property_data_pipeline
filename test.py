@@ -15,12 +15,17 @@ import streamlit as st
 # # print(kf_df.head())
 
 
-income_file_path = 'Data/Census/2021_GCP_POA_for_NSW_short-header/2021 Census GCP Postal Areas for NSW/2021Census_G37_NSW_POA.csv'
+# income_file_path = 'Data/Census/2021_GCP_POA_for_NSW_short-header/2021 Census GCP Postal Areas for NSW/2021Census_G37_NSW_POA.csv'
 
-income_df = pd.read_csv(income_file_path, header=0)
-print(income_df.head()) 
-for i in income_df.columns:
+# income_df = pd.read_csv(income_file_path, header=0)
+# print(income_df.head()) 
+# for i in income_df.columns:
+#     print(i)
+
+ancestry_file_path = 'Data/Census/2021_GCP_POA_for_NSW_short-header/2021 Census GCP Postal Areas for NSW/2021Census_G08_NSW_POA.csv'
+
+ancestry_df = pd.read_csv(ancestry_file_path, header=0)
+print(ancestry_df.head())
+for i in ancestry_df.columns:
     print(i)
-
-
 
