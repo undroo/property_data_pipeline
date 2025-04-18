@@ -3,9 +3,13 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
+
+# Internal imports
 from population import Population
 from dwelling_structure import DwellingStructure
 from ancestry import Ancestry
+from income import Income
+
 # Set page config
 st.set_page_config(
     page_title="Australian Census Data Explorer",
@@ -29,6 +33,12 @@ def load_dwelling_data():
 @st.cache_data
 def load_ancestry_data():
     file_path = 'Data/Census/2021_GCP_POA_for_NSW_short-header/2021 Census GCP Postal Areas for NSW/2021Census_G08_NSW_POA.csv'
+    return pd.read_csv(file_path, header=0)
+
+# Load the income data
+@st.cache_data
+def load_income_data():
+    file_path = 'Data/Census/2021_GCP_POA_for_NSW_short-header/2021 Census GCP Postal Areas for NSW/2021Census_G17C_NSW_POA.csv'
     return pd.read_csv(file_path, header=0)
 
 # Function to create age distribution chart
@@ -394,14 +404,126 @@ def render_ancestry_tab(ancestry_data):
     # use the plot_top_ancestries_horizontal function to plot the top 5 ancestries
     st.plotly_chart(ancestry_data.plot_top_ancestries_horizontal(), use_container_width=True)
 
+def render_income_tab(income_data):
+    """Render the Income tab content"""
+    st.subheader("💰 Income Distribution")
+    
+    # Get overall income summary
+    income_summary = income_data.get_income_summary()
+    
+    # Create columns for key metrics
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.metric(
+            "Average Weekly Income",
+            f"${income_summary['average_income']:.2f}",
+            help="Weighted average weekly income across all age groups"
+        )
+    
+    with col2:
+        total_population = income_summary['total_stated'] + income_summary['total_not_stated']
+        stated_percentage = (income_summary['total_stated'] / total_population * 100) if total_population > 0 else 0
+        st.metric(
+            "Population with Stated Income",
+            f"{int(income_summary['total_stated']):,}",
+            f"{stated_percentage:.1f}% of total population"
+        )
+    
+    with col3:
+        st.metric(
+            "Median Weekly Income",
+            f"${income_summary['percentiles']['median']:.2f}",
+            help="50th percentile of weekly income"
+        )
+    
+    # Create income distribution visualization
+    st.write("### Income Distribution by Age Group")
+    
+    # Get complete distribution data
+    distribution = income_data.get_income_distribution()
+    
+    # Prepare data for visualization
+    plot_data = []
+    for age_band in income_data.age_bands:
+        age_dist = distribution[age_band]
+        total_stated = sum(count for band, count in age_dist.items() if band != "not_stated")
+        if total_stated > 0:  # Only include if there's data
+            for income_band, count in age_dist.items():
+                if income_band != "not_stated":
+                    plot_data.append({
+                        'Age Group': age_band.replace('_', '-'),
+                        'Income Band': f"${income_data.income_bands[income_band][0]}-${income_data.income_bands[income_band][1]}",
+                        'Percentage': (count / total_stated) * 100,
+                        'Count': count
+                    })
+    
+    df = pd.DataFrame(plot_data)
+    fig = px.bar(df,
+                 x='Age Group',
+                 y='Percentage',
+                 color='Income Band',
+                 title='Income Distribution by Age Group',
+                 labels={'Percentage': 'Percentage of Age Group'},
+                 hover_data=['Count'])
+    
+    fig.update_layout(
+        barmode='stack',
+        xaxis_title="Age Group",
+        yaxis_title="Percentage of Age Group",
+        showlegend=True,
+        legend_title="Weekly Income"
+    )
+    
+    st.plotly_chart(fig, use_container_width=True)
+    
+    # Income percentiles
+    st.write("### Income Percentiles")
+    percentiles = income_summary['percentiles']
+    
+    fig_percentiles = go.Figure()
+    fig_percentiles.add_trace(go.Indicator(
+        mode="gauge+number",
+        value=percentiles['median'],
+        title={'text': "Weekly Income Distribution"},
+        gauge={
+            'axis': {'range': [None, percentiles['p90']]},
+            'steps': [
+                {'range': [0, percentiles['p25']], 'color': "lightgray"},
+                {'range': [percentiles['p25'], percentiles['p75']], 'color': "gray"},
+            ],
+            'threshold': {
+                'line': {'color': "red", 'width': 4},
+                'thickness': 0.75,
+                'value': percentiles['median']
+            }
+        }
+    ))
+    
+    fig_percentiles.update_layout(
+        height=300,
+        margin=dict(l=20, r=20, t=50, b=20),
+    )
+    
+    st.plotly_chart(fig_percentiles, use_container_width=True)
+    
+    # Add explanation of percentiles
+    st.write(f"""
+    - 25th Percentile (P25): ${percentiles['p25']:.2f}
+    - Median (P50): ${percentiles['median']:.2f}
+    - 75th Percentile (P75): ${percentiles['p75']:.2f}
+    - 90th Percentile (P90): ${percentiles['p90']:.2f}
+    """)
+
 # Main app
 st.title("🇦🇺 Australian Census Data Explorer")
 st.write("Explore demographic data from the 2021 Australian Census by postcode")
 
 # Load data
 df = load_population_data()
-income_df = load_dwelling_data()
+dwelling_df = load_dwelling_data()
 ancestry_df = load_ancestry_data()
+income_df = load_income_data()
 
 # Postcode input
 postcode = st.text_input("Enter Postcode (NSW only):", "2000")
@@ -410,16 +532,19 @@ if postcode:
     try:
         # Filter data for the selected postcode
         postcode_df = df.query(f'POA_CODE_2021 == "POA{postcode}"')
+        postcode_dwelling_df = dwelling_df.query(f'POA_CODE_2021 == "POA{postcode}"')
+        postcode_ancestry_df = ancestry_df.query(f'POA_CODE_2021 == "POA{postcode}"')
         postcode_income_df = income_df.query(f'POA_CODE_2021 == "POA{postcode}"')
-        
 
-        if not postcode_df.empty and not postcode_income_df.empty:
+        if not postcode_df.empty and not postcode_dwelling_df.empty:
             # Initialize objects
             population = Population(postcode_df)
-            dwelling_structure = DwellingStructure(postcode_income_df)
+            dwelling_structure = DwellingStructure(postcode_dwelling_df)
+            ancestry = Ancestry(postcode_ancestry_df)
+            income = Income(postcode_income_df)
 
             # Create tabs
-            tab1, tab2, tab3 = st.tabs(["📊 Population", "🏠 Dwelling", "🌏 Ancestry"])
+            tab1, tab2, tab3, tab4 = st.tabs(["📊 Population", "🏠 Dwelling", "🌏 Ancestry", "💰 Income"])
 
             # Population tab
             with tab1:
@@ -431,8 +556,11 @@ if postcode:
                 
             # Ancestry tab
             with tab3:
-                ancestry = Ancestry(ancestry_df.query(f'POA_CODE_2021 == "POA{postcode}"'))
                 render_ancestry_tab(ancestry)
+                
+            # Income tab
+            with tab4:
+                render_income_tab(income)
         else:
             st.error(f"No data found for postcode {postcode}")
 
